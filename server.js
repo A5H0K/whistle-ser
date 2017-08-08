@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-f
 
 
 app.get('/',function(req,res){
-    res.send('whistle ser got loaded')
+    res.send('whistle server page got loaded')
 })
 
 /*app.get('/default',function(req,res){
